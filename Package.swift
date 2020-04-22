@@ -21,12 +21,7 @@ let package = Package(
         .target(
             name: "PINOperation",
             dependencies: [],
-            path: ".",
-            sources: ["Source"],
-            publicHeadersPath: "Source",
-            cSettings: [
-                .headerSearchPath("Source")
-            ]
+            path: "Source"
         ),
         .testTarget(
             name: "PINOperationTests",
