@@ -7,11 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#ifdef SWIFT_PACKAGE
-#import <PINOperation.h>
-#else
-#import <PINOperation/PINOperation.h>
-#endif
+#import "PINOperationQueue.h"
 #import <pthread.h>
 
 static NSTimeInterval PINOperationQueueTestBlockTimeout = 20;

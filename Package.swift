@@ -26,7 +26,6 @@ let package = Package(
         .testTarget(
             name: "PINOperationTests",
             dependencies: ["PINOperation"],
-            path: ".",
-            sources: ["Tests"]),
+            path: "Tests"),
     ]
 )
