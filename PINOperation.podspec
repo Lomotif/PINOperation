@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
 #endif
 EOS
   s.prefix_header_contents = pch_PIN
-  s.source_files = 'Source/**/*.{h,m,mm}'
+  s.source_files = 'Source/**/*.{h,m,mm}', 'PINOperation/*'
 end
