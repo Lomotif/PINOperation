@@ -7,15 +7,12 @@
 //
 
 #import "PINOperationGroup.h"
-#import "PINOperation.h"
-#import <pthread.h>
-
-#ifdef SWIFT_PACKAGE
 #import "PINOperationMacros.h"
 #import "PINOperationTypes.h"
 #import "PINOperationQueue.h"
 #import "PINOperationGroup.h"
-#endif
+#import <pthread.h>
+
 
 @interface NSNumber (PINGroupOperationQueue) <PINGroupOperationReference>
 @end

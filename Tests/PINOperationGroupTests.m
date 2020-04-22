@@ -10,11 +10,8 @@
 
 #import <pthread.h>
 
-#ifdef SWIFT_PACKAGE
-#import <PINOperation.h>
-#else
-#import <PINOperation/PINOperation.h>
-#endif
+#import "PINOperationGroup.h"
+
 
 static NSTimeInterval PINOperationGroupTestBlockTimeout = 20;
 
